@@ -1,5 +1,8 @@
 ### **Module 3 — Feasibility & Guardrails**
 
+ Change Log (2025-11-13): 
+   > – Added calorie limit in Diertary Needs.
+
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
 
 1. **Closed Venue**
@@ -23,6 +26,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 7. **Dietary Needs**
   
   * If user is vegan or has dietary constraints → ensure all meals match or swap with compliant ones.
+  * Calorie limit of 5k calories.
 8. **Bookings**
   
   * If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
