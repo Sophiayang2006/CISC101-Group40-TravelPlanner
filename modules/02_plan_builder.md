@@ -1,9 +1,9 @@
 ### **Module 2 — Plan Builder (Options → Days)**
 
 Change log (2025-11-18):
-- Clarified inputs and outputs.
-- Improved activity selection steps.
-- Added basic handling for missing or limited data.
+> - Clarified inputs and outputs.
+> - Improved activity selection steps.
+> - Added basic handling for missing or limited data.
 
 Create a short list of candidate activities (e.g., attractions, restaurants, parks) and each activity includes type, estimated duration, cost range, and distance.
 
