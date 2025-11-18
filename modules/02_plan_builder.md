@@ -7,12 +7,14 @@ Change log (2025-11-18):
 > 
    > – Added basic handling for missing or limited data.
 
-Create a short list of candidate activities (e.g., attractions, restaurants, parks) and each activity includes type, estimated duration, cost range, and distance.
 
-Use a simple loop to build days:
+Make a short list of activities with type, duration, cost, and distance.
 
-for each day:
-    pick Morning activity (near lodging)
-    pick Midday activity (close by)
-    pick Afternoon activity (different theme)
-    pick Evening restaurant or optional event
+For each day:
+- Morning: pick something close to lodging.  
+- Midday: pick a nearby option that fits time.  
+- Afternoon: pick a different type of activity.  
+- Evening: pick a restaurant or event.  
+
+If data is missing, make a simple guess.  
+If no activity fits, use “Free time.”
